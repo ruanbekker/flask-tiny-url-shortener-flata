@@ -21,3 +21,8 @@ $ docker run -it \
   -e APP_NAME=Flata \
   rbekker87/url-shortener:flata
 ```
+
+## Resources:
+
+- https://www.bestcssbuttongenerator.com
+- http://doodlenerd.com/html-control/css-textbox-generator
