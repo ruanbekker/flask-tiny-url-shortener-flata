@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jumo URL Shortener</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Monsterrat', serif;
+        font-size: 36px;
+      }
+    </style>
+</head>
+<body>
+
+    <div class="header_box">
+      <center>
+        <h2>{{ body_text }}</h2>
+      </center>
+    </div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='clipboard.js') }}"></script>
+
+    <center>
+      <input type="text" class="css-input" value="{{ tiny_url }}" id="URLInput">
+      <button class="myButton" onclick="copyToClipboard()">Copy</button>
+      <button class="myButton" onclick="window.location.href='/'">Home</button>
+    </center>
+</body>
+</html>
