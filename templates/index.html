@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>URL Shortner</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<style>
+          body {
+            font-family: 'Monsterrat', serif;
+            font-size: 36px;
+          }
+        </style>
+    </head>
+
+    <body>
+    <div class="header_box">
+        <center>
+	  <h2>{{ body_text }}</h2>
+	</center>
+    </div>
+
+     <center>
+	<form action="/result" method="post">
+	    <input type="text" class="css-input" name="input" placeholder="Link to be shortened" required autofocus>
+
+	    <!--<p class="c">-->
+ 	    <button class="myButton" type="submit">Get TinyURL</button>
+	    <!--</p>--!>
+
+	</form>
+     </center>
+
+    </body>
+</html>
