@@ -26,7 +26,7 @@ $ docker run -it \
 
 ![](https://user-images.githubusercontent.com/567298/46149117-db377700-c269-11e8-9ff3-6aaed8e8ba19.png)
 
-
+![](https://user-images.githubusercontent.com/567298/46149232-25b8f380-c26a-11e8-87ec-47c683876a53.png)
 
 ## Resources:
 
