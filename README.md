@@ -28,6 +28,8 @@ $ docker run -it \
 
 ![](https://user-images.githubusercontent.com/567298/46149232-25b8f380-c26a-11e8-87ec-47c683876a53.png)
 
+![](https://user-images.githubusercontent.com/567298/46149311-4f721a80-c26a-11e8-9b16-7d769ba6aa3f.png)
+
 ## Resources:
 
 - https://hub.docker.com/r/rbekker87/url-shortener/
