@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  url-shortener:
+    image: rbekker87/url-shortener:flata
+    container_name: url-shortener
+    build: .
+    environment:
+      - APP_STORAGE_FILE=/data/mydbfile.json
+      - APP_BASEURL=tiny.mydomain.com
+      - APP_PROTOCOL=http
+      - APP_NAME=Flata
+    ports:
+      - 80:80
+    volumes:
+      - ./data:/data
+
