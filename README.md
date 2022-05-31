@@ -12,6 +12,8 @@ URL Shortener using Python Flask backed by Flata, which is a Python JSON format 
 
 ## Running on Docker:
 
+Using docker:
+
 ```
 $ docker run -it \
   -p 80:80 \
@@ -20,6 +22,12 @@ $ docker run -it \
   -e APP_PROTOCOL=http \
   -e APP_NAME=Flata \
   rbekker87/url-shortener:flata
+```
+
+Using docker compose:
+
+```
+$ docker-compose up --build
 ```
 
 ## Screenshots
